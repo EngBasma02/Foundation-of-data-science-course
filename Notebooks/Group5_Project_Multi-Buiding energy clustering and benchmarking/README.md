@@ -24,5 +24,6 @@ Each notebook implements a different clustering algorithm and evaluates its perf
 - Evaluation of clustering performance  
 - Benchmarking using cluster-based comparisons  
 
+
 ## Note
-The original and intermediate datasets were not uploaded due to their large file sizes.
+The original dataset was not uploaded to this repository due to its large file size.
