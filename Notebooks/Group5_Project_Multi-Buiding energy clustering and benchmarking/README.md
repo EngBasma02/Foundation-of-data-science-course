@@ -1,22 +1,28 @@
-Description of Files
-Data_processing.ipynb
-Handles missing values, feature selection, and prepares the dataset for clustering.
-Clustering Notebooks
-Each notebook applies a different clustering algorithm and evaluates performance:
-  -K-Means
-  -Agglomerative
-  -GMM
-  -Spectral
- - SOM
-Datasets
-  -clean_data.csv: Final cleaned dataset
-  -pca_data.csv: Reduced feature space after PCA
-  -global_baseline.csv: Used for global comparison
-  -facility_baseline.csv: Used for benchmarking at cluster level
-Workflow
-  -Data preprocessing and cleaning
-  -PCA for dimensionality reduction
-  -Apply multiple clustering techniques
-  -Evaluate clustering performance
-  -Perform benchmarking using cluster-based comparisons
-Note that we werwenot able to upload the original data and processed data files as they are big 
+## Description of Files
+
+### Data_processing.ipynb
+Performs data cleaning, handles missing values, and prepares features for clustering.
+
+### Clustering Notebooks
+Each notebook implements a different clustering algorithm and evaluates its performance:
+- K-Means  
+- Agglomerative Clustering  
+- Gaussian Mixture Model (GMM)  
+- Spectral Clustering  
+- Self-Organizing Map (SOM)  
+
+### Datasets
+- `clean_data.csv`: Final cleaned dataset used for modeling  
+- `pca_data.csv`: Dataset after dimensionality reduction using PCA  
+- `global_baseline.csv`: Global reference data for benchmarking  
+- `facility_baseline.csv`: Cluster-level benchmarking dataset  
+
+## Workflow
+- Data preprocessing and cleaning  
+- Dimensionality reduction using PCA  
+- Application of multiple clustering techniques  
+- Evaluation of clustering performance  
+- Benchmarking using cluster-based comparisons  
+
+## Note
+The original and intermediate datasets were not uploaded due to their large file sizes.
